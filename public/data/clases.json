@@ -1,0 +1,528 @@
+[
+  {
+    "id": 1,
+    "nombre": "IPA Intense",
+    "instructor": "Bruno 'El Lupulado' Martínez",
+    "imagen": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500",
+    "resumen": "Entrenamiento funcional de alta intensidad mientras degustas una IPA artesanal. El amargor te motiva, el alcohol te relaja. Combina burpees, sentadillas y tragos estratégicos para el equilibrio perfecto.",
+    "duracion": 60,
+    "nivel": "Avanzado",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 450,
+    "birra_incluida": {
+      "nombre": "IPA del Gimnasta",
+      "tipo": "India Pale Ale",
+      "graduacion": "6.5%",
+      "origen": "Cervecería Local 'Hop Fit'",
+      "descripcion": "Notas cítricas con final amargo, perfecta para recuperación post-burpees. Con lúpulo importado y actitud local."
+    },
+    "equipamiento": ["Mancuernas", "TRX", "Jarra cervecera personalizada"],
+    "horarios": ["Lunes 19:00", "Miércoles 20:00", "Sábado 11:00"],
+    "beneficios": ["Tonificación muscular", "Socialización cervecera", "Cultura de lúpulo"]
+  },
+  {
+    "id": 2,
+    "nombre": "Stout & Stretch",
+    "instructor": "Valeria 'La Negra' Romero",
+    "imagen": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500",
+    "resumen": "Yoga relajante con cerveza negra. Posturas de equilibrio con vaso en mano. Namaste con espuma. Aprende a sostener la postura del guerrero mientras sostienes una Stout perfecta.",
+    "duracion": 75,
+    "nivel": "Principiante",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 180,
+    "birra_incluida": {
+      "nombre": "Stout Zen Master",
+      "tipo": "Irish Stout",
+      "graduacion": "4.2%",
+      "origen": "Cervecería 'Ommmm Brewing'",
+      "descripcion": "Suave, cremosa, con notas de café tostado. Ideal para la relajación post-asanas y meditación cervecera."
+    },
+    "equipamiento": ["Mat de yoga", "Bloques", "Vaso térmico cervecero"],
+    "horarios": ["Martes 18:00", "Jueves 19:00", "Domingo 10:00"],
+    "beneficios": ["Flexibilidad extrema", "Paz interior alcohólica", "Apreciación de maltas tostadas"]
+  },
+  {
+    "id": 3,
+    "nombre": "Lager Legs",
+    "instructor": "Martín 'Piernas de Acero' López",
+    "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500",
+    "resumen": "Spinning intenso con cerveza rubia refrescante. Pedalea, suda, bebe, repite. Hidratación alcohólica responsable. Las subidas son difíciles, pero con cada trago la resistencia aumenta.",
+    "duracion": 45,
+    "nivel": "Intermedio",
+    "categoria": "Cardio",
+    "calorias_quemadas": 520,
+    "birra_incluida": {
+      "nombre": "Rubia Cyclist",
+      "tipo": "German Lager",
+      "graduacion": "4.8%",
+      "origen": "Cervecería 'Pedal & Pint'",
+      "descripcion": "Ligera, refrescante y con burbujas energizantes. Perfecta para rehidratación ciclista con estilo bávaro."
+    },
+    "equipamiento": ["Bicicleta estática", "Toalla", "Bidón cervecero"],
+    "horarios": ["Lunes 07:00", "Miércoles 18:30", "Viernes 07:00"],
+    "beneficios": ["Resistencia cardiovascular", "Quema de grasa cervecera", "Conocimiento de lagers europeas"]
+  },
+  {
+    "id": 4,
+    "nombre": "Pilsner Power",
+    "instructor": "Carlos 'El Checo' Novak",
+    "imagen": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500",
+    "resumen": "HIIT explosivo con la cerveza más refrescante del mundo. Intervalos de alta intensidad seguidos de tragos cronometrados. La tradición checa se encuentra con el fitness moderno.",
+    "duracion": 40,
+    "nivel": "Avanzado",
+    "categoria": "Cardio",
+    "calorias_quemadas": 580,
+    "birra_incluida": {
+      "nombre": "Pilsner Praha Fitness",
+      "tipo": "Czech Pilsner",
+      "graduacion": "5.0%",
+      "origen": "Cervecería 'Bohemia Gym'",
+      "descripcion": "Dorada brillante, amarga y refrescante. La cerveza que los atletas checos beben después de ganar medallas."
+    },
+    "equipamiento": ["Colchoneta", "Cronómetro", "Jarra de medio litro"],
+    "horarios": ["Martes 07:00", "Jueves 20:00", "Sábado 09:00"],
+    "beneficios": ["Explosividad muscular", "Recuperación rápida", "Apreciación de la cultura checa"]
+  },
+  {
+    "id": 5,
+    "nombre": "Amber Aerobics",
+    "instructor": "Lucía 'Ámbar' Fernández",
+    "imagen": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500",
+    "resumen": "Aeróbicos retro al ritmo de los 80s con cerveza ámbar. Jane Fonda se encontraría orgullosa. Calentadores de pierna opcionales, cerveza obligatoria.",
+    "duracion": 50,
+    "nivel": "Principiante",
+    "categoria": "Cardio",
+    "calorias_quemadas": 380,
+    "birra_incluida": {
+      "nombre": "Ámbar Retro",
+      "tipo": "Amber Ale",
+      "graduacion": "5.5%",
+      "origen": "Cervecería 'Vintage Brew'",
+      "descripcion": "Color cobrizo, sabor a caramelo y maltas tostadas. Como los años 80, pero en versión cerveza."
+    },
+    "equipamiento": ["Ropa de aerobics", "Step", "Vaso retro"],
+    "horarios": ["Lunes 18:00", "Miércoles 19:00", "Viernes 18:00"],
+    "beneficios": ["Coordinación motriz", "Nostalgia saludable", "Cultura pop cervecera"]
+  },
+  {
+    "id": 6,
+    "nombre": "Porter Push-ups",
+    "instructor": "Diego 'El Oscuro' Ramírez",
+    "imagen": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=500",
+    "resumen": "Rutina de fuerza pura con cerveza oscura inglesa. Flexiones, dominadas y cerveza negra como recompensa. Cada serie ganada merece un trago ganado.",
+    "duracion": 55,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 420,
+    "birra_incluida": {
+      "nombre": "Porter del Gigante",
+      "tipo": "English Porter",
+      "graduacion": "5.8%",
+      "origen": "Cervecería 'Iron Pint'",
+      "descripcion": "Chocolate, café y fuerza líquida. Cerveza de cargadores del puerto, ahora para levantadores modernos."
+    },
+    "equipamiento": ["Barra de dominadas", "Mancuernas", "Jarra de porcelana"],
+    "horarios": ["Martes 19:00", "Jueves 20:00", "Sábado 10:00"],
+    "beneficios": ["Fuerza de empuje", "Espalda de acero", "Conocimiento cervecero británico"]
+  },
+  {
+    "id": 7,
+    "nombre": "Wheat Yoga",
+    "instructor": "Sofía 'La Trigo' González",
+    "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=500",
+    "resumen": "Yoga suave con cerveza de trigo alemana. Fluye como el Danubio con tu Weissbier en mano. Posturas digestivas después de cada sorbo.",
+    "duracion": 60,
+    "nivel": "Principiante",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 200,
+    "birra_incluida": {
+      "nombre": "Weizen Wellness",
+      "tipo": "Hefeweizen",
+      "graduacion": "5.2%",
+      "origen": "Cervecería 'Bavarian Body'",
+      "descripcion": "Turbia, afrutada con notas de plátano y clavo. Perfecta para la digestión y relajación post-yoga."
+    },
+    "equipamiento": ["Mat premium", "Correa", "Vaso alemán tradicional"],
+    "horarios": ["Lunes 10:00", "Miércoles 17:00", "Viernes 19:00"],
+    "beneficios": ["Elasticidad mental", "Paz intestinal", "Apreciación de Baviera"]
+  },
+  {
+    "id": 8,
+    "nombre": "Ale Arms",
+    "instructor": "Roberto 'Brazos de Hierro' Silva",
+    "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=500",
+    "resumen": "Día de brazos con Pale Ale americana. Bíceps, tríceps y cerveza artesanal. Cada curl te acerca a la perfección física y etílica.",
+    "duracion": 50,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 390,
+    "birra_incluida": {
+      "nombre": "Pale Ale del Bíceps",
+      "tipo": "American Pale Ale",
+      "graduacion": "5.4%",
+      "origen": "Cervecería 'Muscle Hop'",
+      "descripcion": "Cítrica, con lúpulos americanos potentes. Como tus brazos: fuerte y definida."
+    },
+    "equipamiento": ["Mancuernas variadas", "Banco", "Taza cervecera"],
+    "horarios": ["Lunes 20:00", "Miércoles 19:30", "Viernes 20:00"],
+    "beneficios": ["Volumen de brazos", "Definición muscular", "Cultura cervecera americana"]
+  },
+  {
+    "id": 9,
+    "nombre": "Belgian Bends",
+    "instructor": "Marie 'La Belga' Dubois",
+    "imagen": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=500",
+    "resumen": "Pilates con cerveza belga trapense. Flexiones de columna mientras bebes cerveza de monjes. Combinación divina de core y alcohol.",
+    "duracion": 65,
+    "nivel": "Intermedio",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 250,
+    "birra_incluida": {
+      "nombre": "Dubbel Flexible",
+      "tipo": "Belgian Dubbel",
+      "graduacion": "7.0%",
+      "origen": "Cervecería 'Abbey Gym'",
+      "descripcion": "Oscura, compleja, con notas de frutas secas. Cerveza de monjes para guerreros del core."
+    },
+    "equipamiento": ["Reformer", "Pelota", "Copa de cerveza belga"],
+    "horarios": ["Martes 10:00", "Jueves 18:00", "Sábado 11:00"],
+    "beneficios": ["Core de acero", "Postura perfecta", "Conocimiento de cervezas trapenses"]
+  },
+  {
+    "id": 10,
+    "nombre": "Guinness Guards",
+    "instructor": "Patrick 'El Irlandés' O'Connor",
+    "imagen": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=500",
+    "resumen": "Boxeo irlandés con la cerveza más famosa del mundo. Jab, cross, uppercut y trago. Como en los pubs de Dublín, pero con más sudor.",
+    "duracion": 60,
+    "nivel": "Avanzado",
+    "categoria": "Combate",
+    "calorias_quemadas": 650,
+    "birra_incluida": {
+      "nombre": "Guinness Original",
+      "tipo": "Irish Dry Stout",
+      "graduacion": "4.2%",
+      "origen": "Dublín, Irlanda",
+      "descripcion": "Negra, cremosa, icónica. La cerveza que define una nación y ahora define tu cross."
+    },
+    "equipamiento": ["Guantes de boxeo", "Saco", "Pinta irlandesa"],
+    "horarios": ["Lunes 19:30", "Miércoles 20:00", "Viernes 19:30"],
+    "beneficios": ["Técnica de golpe", "Cardio explosivo", "Acento irlandés (opcional)"]
+  },
+  {
+    "id": 11,
+    "nombre": "Red Ale Rumble",
+    "instructor": "Fernando 'Red' Morales",
+    "imagen": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=500",
+    "resumen": "Kickboxing con cerveza roja irlandesa. Patadas altas, cerveza rojiza. Cada round termina con un brindis y comienza con una patada.",
+    "duracion": 55,
+    "nivel": "Avanzado",
+    "categoria": "Combate",
+    "calorias_quemadas": 620,
+    "birra_incluida": {
+      "nombre": "Irish Red Fighter",
+      "tipo": "Irish Red Ale",
+      "graduacion": "5.0%",
+      "origen": "Cervecería 'Kick & Pint'",
+      "descripcion": "Roja, maltosa, con carácter. Como tu roundhouse kick: impresionante y memorable."
+    },
+    "equipamiento": ["Protectores", "Pads", "Jarra deportiva"],
+    "horarios": ["Martes 20:00", "Jueves 19:30", "Sábado 18:00"],
+    "beneficios": ["Patada demoledora", "Reflejos felinos", "Apreciación de ales rojas"]
+  },
+  {
+    "id": 12,
+    "nombre": "Stout Strength",
+    "instructor": "Victor 'El Titán' Ruiz",
+    "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500",
+    "resumen": "CrossFit brutal con Stout imperial. WODs intensos seguidos de cerveza intensa. RX o scaled, todos beben igual.",
+    "duracion": 60,
+    "nivel": "Avanzado",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 700,
+    "birra_incluida": {
+      "nombre": "Imperial Stout Beast",
+      "tipo": "Imperial Stout",
+      "graduacion": "9.0%",
+      "origen": "Cervecería 'WOD Brewing'",
+      "descripcion": "Oscura, potente, imperial. 9% de alcohol para guerreros del CrossFit. No apta para principiantes."
+    },
+    "equipamiento": ["Barra olímpica", "Kettlebells", "Taza grande"],
+    "horarios": ["Lunes 06:00", "Miércoles 19:00", "Viernes 06:00"],
+    "beneficios": ["Fuerza total", "Resistencia mental", "Tolerancia al alcohol elevada"]
+  },
+  {
+    "id": 13,
+    "nombre": "Blonde Burn",
+    "instructor": "Andrea 'La Rubia' Castro",
+    "imagen": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500",
+    "resumen": "Cardio dance con cerveza rubia suave. Baila, suda y bebe. Coreografías latinas con sabor europeo.",
+    "duracion": 50,
+    "nivel": "Principiante",
+    "categoria": "Cardio",
+    "calorias_quemadas": 400,
+    "birra_incluida": {
+      "nombre": "Blonde Dancer",
+      "tipo": "Blonde Ale",
+      "graduacion": "4.5%",
+      "origen": "Cervecería 'Ritmo y Malta'",
+      "descripcion": "Suave, ligera, fácil de beber. Como tus pasos de baile: fluidos y naturales."
+    },
+    "equipamiento": ["Ropa cómoda", "Zapatillas", "Botella térmica"],
+    "horarios": ["Lunes 18:30", "Miércoles 18:30", "Viernes 18:30"],
+    "beneficios": ["Coordinación", "Diversión garantizada", "Ritmo cervecero"]
+  },
+  {
+    "id": 14,
+    "nombre": "Saison Serenity",
+    "instructor": "Jean-Paul 'Zen' Mercier",
+    "imagen": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500",
+    "resumen": "Meditación guiada con Saison belga. Silencio, respiración y cerveza de granja. La paz interior viene en botella de 750ml.",
+    "duracion": 45,
+    "nivel": "Principiante",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 100,
+    "birra_incluida": {
+      "nombre": "Saison Tranquila",
+      "tipo": "Belgian Saison",
+      "graduacion": "6.5%",
+      "origen": "Cervecería 'Fermette Zen'",
+      "descripcion": "Floral, especiada, refrescante. Cerveza de granjeros belgas para guerreros de la meditación."
+    },
+    "equipamiento": ["Cojín de meditación", "Incienso", "Copa especial"],
+    "horarios": ["Martes 07:00", "Jueves 07:00", "Domingo 09:00"],
+    "beneficios": ["Paz mental", "Reducción de estrés", "Iluminación cervecera"]
+  },
+  {
+    "id": 15,
+    "nombre": "Brown Bulking",
+    "instructor": "Miguel 'El Grande' Torres",
+    "imagen": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=500",
+    "resumen": "Hipertrofia con cerveza marrón nutritiva. Volumen muscular y volumen etílico. Las calorías cuentan, todas suman.",
+    "duracion": 70,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 480,
+    "birra_incluida": {
+      "nombre": "Brown Ale Mass Gainer",
+      "tipo": "English Brown Ale",
+      "graduacion": "5.3%",
+      "origen": "Cervecería 'Bulk Brewing'",
+      "descripcion": "Maltosa, con cuerpo, nutritiva. Carbohidratos líquidos para tu fase de volumen."
+    },
+    "equipamiento": ["Máquinas", "Pesas libres", "Vaso XXL"],
+    "horarios": ["Lunes 19:00", "Miércoles 19:00", "Viernes 19:00"],
+    "beneficios": ["Masa muscular", "Fuerza bruta", "Calorías extra"]
+  },
+  {
+    "id": 16,
+    "nombre": "Black IPA Brawl",
+    "instructor": "Rodrigo 'Black Ops' Vega",
+    "imagen": "https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=500",
+    "resumen": "MMA completo con Black IPA americana. Golpes, sumisiones y cerveza oscura lupulada. El estilo más híbrido de cerveza para el deporte más híbrido.",
+    "duracion": 60,
+    "nivel": "Avanzado",
+    "categoria": "Combate",
+    "calorias_quemadas": 680,
+    "birra_incluida": {
+      "nombre": "Black IPA Warrior",
+      "tipo": "Black IPA / Cascadian Dark Ale",
+      "graduacion": "7.2%",
+      "origen": "Cervecería 'Octagon Brewing'",
+      "descripcion": "Oscura pero lupulada, misteriosa pero directa. Como tu guillotine choke."
+    },
+    "equipamiento": ["Guantes MMA", "Protector bucal", "Botella deportiva"],
+    "horarios": ["Martes 20:30", "Jueves 20:30", "Sábado 17:00"],
+    "beneficios": ["Defensa personal", "Acondicionamiento total", "Respeto al lúpulo oscuro"]
+  },
+  {
+    "id": 17,
+    "nombre": "Kolsch Cardio",
+    "instructor": "Hans 'El Alemán Rápido' Schmidt",
+    "imagen": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500",
+    "resumen": "Carrera en cinta con Kölsch de Colonia. Ritmo constante, cerveza refrescante. Como correr junto al Rin, pero en el gimnasio.",
+    "duracion": 40,
+    "nivel": "Intermedio",
+    "categoria": "Cardio",
+    "calorias_quemadas": 450,
+    "birra_incluida": {
+      "nombre": "Kölsch Runner",
+      "tipo": "Kölsch",
+      "graduacion": "4.8%",
+      "origen": "Cervecería 'Rhein Fitness'",
+      "descripcion": "Ligera, delicada, refrescante. La cerveza de Colonia para corredores globales."
+    },
+    "equipamiento": ["Cinta de correr", "Audífonos", "Vaso cilíndrico"],
+    "horarios": ["Lunes 07:30", "Miércoles 07:30", "Viernes 07:30"],
+    "beneficios": ["Resistencia aeróbica", "Quema de grasa", "Conocimiento de Colonia"]
+  },
+  {
+    "id": 18,
+    "nombre": "Tripel Triceps",
+    "instructor": "Benedict 'Triple B' Brasseur",
+    "imagen": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500",
+    "resumen": "Tríceps con Triple belga. Tres cabezas de tríceps, tres niveles de alcohol. Matemática simple, resultados complejos.",
+    "duracion": 45,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 350,
+    "birra_incluida": {
+      "nombre": "Tripel Tri-Power",
+      "tipo": "Belgian Tripel",
+      "graduacion": "8.5%",
+      "origen": "Cervecería 'Trinity Muscles'",
+      "descripcion": "Dorada, fuerte, compleja. Triple fermentación para tríceps triples."
+    },
+    "equipamiento": ["Poleas", "Barras", "Copa de tripel"],
+    "horarios": ["Martes 19:30", "Jueves 19:30", "Sábado 12:00"],
+    "beneficios": ["Tríceps definidos", "Brazos grandes", "Apreciación de tripels"]
+  },
+  {
+    "id": 19,
+    "nombre": "Gose Glutes",
+    "instructor": "Lena 'La Salada' Hoffman",
+    "imagen": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500",
+    "resumen": "Día de glúteos con Gose alemana. Sentadillas profundas, cerveza salada. La combinación más inesperada y efectiva.",
+    "duracion": 50,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 410,
+    "birra_incluida": {
+      "nombre": "Gose Glute Builder",
+      "tipo": "Gose",
+      "graduacion": "4.2%",
+      "origen": "Cervecería 'Leipzig Legs'",
+      "descripcion": "Salada, ácida, refrescante. Reposición de electrolitos con estilo alemán."
+    },
+    "equipamiento": ["Barra con pesas", "Hip thrust bench", "Vaso especial"],
+    "horarios": ["Lunes 18:00", "Miércoles 18:00", "Viernes 18:00"],
+    "beneficios": ["Glúteos de acero", "Piernas fuertes", "Tolerancia a lo salado"]
+  },
+  {
+    "id": 20,
+    "nombre": "Barleywine Beast Mode",
+    "instructor": "Thor 'El Vikingo' Eriksson",
+    "imagen": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=500",
+    "resumen": "Powerlifting con vino de cebada. Los levantamientos más pesados con la cerveza más fuerte. Odin aprobaría.",
+    "duracion": 90,
+    "nivel": "Avanzado",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 550,
+    "birra_incluida": {
+      "nombre": "Barleywine Valhalla",
+      "tipo": "English Barleywine",
+      "graduacion": "11.5%",
+      "origen": "Cervecería 'Viking Strength'",
+      "descripcion": "Oscura, compleja, alcohólica. No es cerveza, es vino de cebada para guerreros nórdicos."
+    },
+    "equipamiento": ["Barra olímpica", "Discos de hierro", "Cuerno vikingo"],
+    "horarios": ["Miércoles 20:00", "Sábado 10:00"],
+    "beneficios": ["Fuerza máxima", "Respeto en el gym", "Billete a Valhalla"]
+  },
+  {
+    "id": 21,
+    "nombre": "Witbier Wellness",
+    "instructor": "Emma 'Blanca' Van Der Berg",
+    "imagen": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=500",
+    "resumen": "Clase de bienestar integral con cerveza blanca belga. Estiramiento, respiración y trigo. Todo lo que necesitas para el equilibrio.",
+    "duracion": 60,
+    "nivel": "Principiante",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 220,
+    "birra_incluida": {
+      "nombre": "Witbier Wellness",
+      "tipo": "Belgian Witbier",
+      "graduacion": "4.5%",
+      "origen": "Cervecería 'Hoegaarden Health'",
+      "descripcion": "Refrescante, con cilantro y cáscara de naranja. Bienestar en vaso."
+    },
+    "equipamiento": ["Mat", "Bolster", "Vaso de trigo"],
+    "horarios": ["Martes 17:00", "Jueves 17:00", "Domingo 11:00"],
+    "beneficios": ["Bienestar integral", "Relajación", "Cultura cervecera belga"]
+  },
+  {
+    "id": 22,
+    "nombre": "Dunkel Deadlifts",
+    "instructor": "Klaus 'El Oscuro' Müller",
+    "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500",
+    "resumen": "Peso muerto con cerveza oscura de Munich. Levanta pesado, bebe oscuro. La filosofía bávara del hierro.",
+    "duracion": 60,
+    "nivel": "Avanzado",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 500,
+    "birra_incluida": {
+      "nombre": "Dunkel Lifter",
+      "tipo": "Munich Dunkel",
+      "graduacion": "5.0%",
+      "origen": "Cervecería 'Bavarian Iron'",
+      "descripcion": "Oscura, maltosa, bávara. Para levantadores serios que aprecian la tradición."
+    },
+    "equipamiento": ["Barra", "Plataforma", "Stein alemán"],
+    "horarios": ["Lunes 20:30", "Miércoles 20:30", "Viernes 20:30"],
+    "beneficios": ["Espalda baja de acero", "Fuerza de tracción", "Respeto por Baviera"]
+  },
+  {
+    "id": 23,
+    "nombre": "Rauchbier Recovery",
+    "instructor": "Stefan 'El Ahumado' Wagner",
+    "imagen": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=500",
+    "resumen": "Clase de recuperación activa con cerveza ahumada alemana. Estiramiento suave, foam rolling y sabor a barbacoa líquida.",
+    "duracion": 45,
+    "nivel": "Principiante",
+    "categoria": "Flexibilidad",
+    "calorias_quemadas": 150,
+    "birra_incluida": {
+      "nombre": "Rauchbier Relax",
+      "tipo": "Rauchbier",
+      "graduacion": "5.5%",
+      "origen": "Cervecería 'Bamberg Recovery'",
+      "descripcion": "Ahumada, única, intrigante. Sabor a bacon en forma de cerveza para tu recuperación."
+    },
+    "equipamiento": ["Foam roller", "Bandas", "Jarra ahumada"],
+    "horarios": ["Miércoles 21:00", "Domingo 18:00"],
+    "beneficios": ["Recuperación muscular", "Relajación profunda", "Experiencia ahumada"]
+  },
+  {
+    "id": 24,
+    "nombre": "Sour Power",
+    "instructor": "Natalia 'La Ácida' Vargas",
+    "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500",
+    "resumen": "Entrenamiento funcional con cerveza ácida. El sabor te despierta, los burpees te destruyen. Perfecta combinación agridulce.",
+    "duracion": 50,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 460,
+    "birra_incluida": {
+      "nombre": "Sour Strength",
+      "tipo": "Berliner Weisse",
+      "graduacion": "3.8%",
+      "origen": "Cervecería 'Berlin Functional'",
+      "descripcion": "Ácida, refrescante, vigorizante. Te despierta como una serie de burpees."
+    },
+    "equipamiento": ["Kettlebells", "Cuerda", "Vaso berliner"],
+    "horarios": ["Martes 18:30", "Jueves 18:30", "Sábado 16:00"],
+    "beneficios": ["Fuerza funcional", "Agilidad", "Tolerancia a lo ácido"]
+  },
+  {
+    "id": 25,
+    "nombre": "Märzen Muscle",
+    "instructor": "Otto 'Oktoberfest' Schneider",
+    "imagen": "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=500",
+    "resumen": "Entrenamiento de Oktoberfest. Levanta steins de un litro, baila polka, entrena piernas. Baviera en tu gimnasio.",
+    "duracion": 60,
+    "nivel": "Intermedio",
+    "categoria": "Fuerza",
+    "calorias_quemadas": 480,
+    "birra_incluida": {
+      "nombre": "Märzen Fitness",
+      "tipo": "Oktoberfest Märzen",
+      "graduacion": "5.8%",
+      "origen": "Cervecería 'Munich Muscles'",
+      "descripcion": "Cobriza, maltosa, festiva. La cerveza oficial del Oktoberfest para atletas."
+    },
+    "equipamiento": ["Stein de 1L", "Lederhosen (opcional)", "Fuerza bávara"],
+    "horarios": ["Viernes 19:00", "Sábado 19:00"],
+    "beneficios": ["Fuerza de agarre", "Cultura alemana", "Preparación para Munich"]
+  }
+]
+

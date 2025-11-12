@@ -1,0 +1,709 @@
+/* ============================================
+   BIRRA Y BÍCEPS - Estilos inspirados en Quilmes
+   Colores: Azul Oscuro (#003D82), Dorado (#D4AF37), Blanco (#FFFFFF)
+   ============================================ */
+
+:root {
+  --quilmes-blue: #003D82;
+  --quilmes-blue-dark: #002554;
+  --quilmes-gold: #D4AF37;
+  --quilmes-gold-light: #F4D03F;
+  --quilmes-white: #FFFFFF;
+  --quilmes-gray: #E8E8E8;
+  --quilmes-text: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.quilmes-background {
+  background: linear-gradient(135deg, var(--quilmes-blue-dark) 0%, var(--quilmes-blue) 100%);
+  color: var(--quilmes-white);
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+header {
+  background: linear-gradient(90deg, var(--quilmes-blue-dark) 0%, var(--quilmes-blue) 100%);
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 4px solid var(--quilmes-gold);
+}
+
+.brand-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.logo-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--quilmes-gold);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: var(--quilmes-white);
+  font-style: italic;
+  margin: 0.5rem 0 0 0;
+  opacity: 0.95;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#loginForm {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#loginForm input {
+  padding: 0.6rem;
+  border: 2px solid var(--quilmes-gold);
+  border-radius: 4px;
+  background: var(--quilmes-white);
+  color: var(--quilmes-text);
+  min-width: 120px;
+}
+
+#loginForm input:focus {
+  outline: none;
+  border-color: var(--quilmes-gold-light);
+  box-shadow: 0 0 8px var(--quilmes-gold);
+}
+
+#userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  border: 2px solid var(--quilmes-gold);
+}
+
+#userNameDisplay {
+  color: var(--quilmes-gold);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ============================================
+   BOTONES QUILMES
+   ============================================ */
+
+.btn-quilmes {
+  background: var(--quilmes-gold);
+  color: var(--quilmes-blue-dark);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-quilmes:hover {
+  background: var(--quilmes-gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-quilmes-secondary {
+  background: transparent;
+  color: var(--quilmes-gold);
+  border: 2px solid var(--quilmes-gold);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.btn-quilmes-secondary:hover {
+  background: var(--quilmes-gold);
+  color: var(--quilmes-blue-dark);
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+
+main {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+/* ============================================
+   LOADER
+   ============================================ */
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.loader {
+  border: 6px solid rgba(212, 175, 55, 0.3);
+  border-top: 6px solid var(--quilmes-gold);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ============================================
+   CATEGORÍAS
+   ============================================ */
+
+.categoria {
+  margin: 3rem 0;
+}
+
+.categoria h2 {
+  color: var(--quilmes-gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--quilmes-gold);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}
+
+/* ============================================
+   CARDS DE CLASES
+   ============================================ */
+
+.clases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: var(--quilmes-white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 3px solid var(--quilmes-gold);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.5);
+  border-color: var(--quilmes-gold-light);
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-picture {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: var(--quilmes-blue-dark);
+}
+
+.card-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-picture img {
+  transform: scale(1.1);
+}
+
+.card-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--quilmes-gold);
+  color: var(--quilmes-blue-dark);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+  padding: 1.5rem;
+  background: var(--quilmes-white);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--quilmes-blue-dark);
+  margin: 0 0 0.5rem 0;
+}
+
+.card-instructor {
+  color: var(--quilmes-text);
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+  font-style: italic;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 0.5rem 0;
+  padding-top: 1rem;
+  border-top: 2px solid var(--quilmes-gray);
+}
+
+.card-duration,
+.card-level {
+  font-size: 0.85rem;
+  color: var(--quilmes-text);
+  font-weight: bold;
+}
+
+.card-beer {
+  background: linear-gradient(135deg, var(--quilmes-gold) 0%, var(--quilmes-gold-light) 100%);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid var(--quilmes-gold-light);
+}
+
+.card-beer-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--quilmes-blue-dark);
+  font-weight: bold;
+  margin: 0 0 0.3rem 0;
+}
+
+.card-beer-name {
+  font-size: 1rem;
+  color: var(--quilmes-blue-dark);
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-beer-type {
+  font-size: 0.85rem;
+  color: var(--quilmes-blue);
+  margin: 0.2rem 0 0 0;
+}
+
+/* ============================================
+   PÁGINA DE DETALLES
+   ============================================ */
+
+.clase-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  display: inline-block;
+  color: var(--quilmes-gold);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  padding: 0.7rem 1.5rem;
+  background: rgba(212, 175, 55, 0.2);
+  border: 2px solid var(--quilmes-gold);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: var(--quilmes-gold);
+  color: var(--quilmes-blue-dark);
+  transform: translateX(-5px);
+}
+
+.clase-details {
+  background: var(--quilmes-white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 4px solid var(--quilmes-gold);
+}
+
+.clase-header {
+  background: linear-gradient(135deg, var(--quilmes-blue-dark) 0%, var(--quilmes-blue) 100%);
+  padding: 2rem;
+  color: var(--quilmes-white);
+  border-bottom: 4px solid var(--quilmes-gold);
+}
+
+.clase-header h2 {
+  color: var(--quilmes-gold);
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clase-header .instructor {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.clase-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.clase-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.clase-info {
+  color: var(--quilmes-text);
+}
+
+.clase-info h3 {
+  color: var(--quilmes-blue-dark);
+  border-bottom: 2px solid var(--quilmes-gold);
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.clase-info p {
+  line-height: 1.6;
+}
+
+.clase-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.meta-item {
+  background: var(--quilmes-gray);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border-left: 4px solid var(--quilmes-gold);
+}
+
+.meta-item strong {
+  display: block;
+  color: var(--quilmes-blue-dark);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.meta-item span {
+  color: var(--quilmes-text);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* SECCIÓN CERVEZA DESTACADA */
+.beer-section {
+  background: linear-gradient(135deg, var(--quilmes-gold) 0%, var(--quilmes-gold-light) 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border: 3px solid var(--quilmes-gold-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.beer-section h3 {
+  color: var(--quilmes-blue-dark) !important;
+  font-size: 1.8rem;
+  border-bottom: 3px solid var(--quilmes-blue-dark) !important;
+  margin-top: 0 !important;
+}
+
+.beer-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.beer-detail-item {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.beer-detail-item strong {
+  color: var(--quilmes-blue-dark);
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.beer-detail-item span {
+  color: var(--quilmes-text);
+  font-size: 1rem;
+}
+
+.beer-description {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--quilmes-blue);
+}
+
+.horarios-list,
+.equipamiento-list,
+.beneficios-list {
+  list-style: none;
+  padding: 0;
+}
+
+.horarios-list li,
+.equipamiento-list li,
+.beneficios-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--quilmes-text);
+}
+
+.horarios-list li:before,
+.equipamiento-list li:before,
+.beneficios-list li:before {
+  content: "🍺";
+  position: absolute;
+  left: 0;
+}
+
+/* ============================================
+   PÁGINA 404
+   ============================================ */
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--quilmes-blue-dark) 0%, var(--quilmes-blue) 100%);
+}
+
+.error-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.logo-title-large {
+  font-size: 3rem;
+  color: var(--quilmes-gold);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.slogan-large {
+  font-size: 1.5rem;
+  color: var(--quilmes-white);
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.error-message {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  border: 3px solid var(--quilmes-gold);
+  backdrop-filter: blur(10px);
+}
+
+.error-code {
+  font-size: 8rem;
+  color: var(--quilmes-gold);
+  margin: 0;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.error-title {
+  font-size: 2rem;
+  color: var(--quilmes-white);
+  margin: 1rem 0;
+}
+
+.error-description {
+  font-size: 1.2rem;
+  color: var(--quilmes-white);
+  margin: 1rem 0;
+}
+
+.error-subdescription {
+  font-size: 1rem;
+  color: var(--quilmes-gray);
+  margin: 1rem 0;
+}
+
+.beer-animation {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+
+.beer-glass {
+  animation: float 3s ease-in-out infinite;
+}
+
+.dumbbell {
+  animation: float 3s ease-in-out infinite 1.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+  background: var(--quilmes-blue-dark);
+  color: var(--quilmes-gold);
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 3px solid var(--quilmes-gold);
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* ============================================
+   ERROR MESSAGE
+   ============================================ */
+
+.error {
+  background: #d32f2f;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .logo-title {
+    font-size: 2rem;
+  }
+
+  .slogan {
+    font-size: 1rem;
+  }
+
+  .clases-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clase-body {
+    grid-template-columns: 1fr;
+  }
+
+  .clase-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .beer-details {
+    grid-template-columns: 1fr;
+  }
+
+  .error-code {
+    font-size: 5rem;
+  }
+
+  .logo-title-large {
+    font-size: 2rem;
+  }
+
+  .slogan-large {
+    font-size: 1rem;
+  }
+}
+

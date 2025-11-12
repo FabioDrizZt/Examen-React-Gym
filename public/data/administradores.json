@@ -1,0 +1,50 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "firstName": "Roberto",
+      "lastName": "Cerveza",
+      "username": "robertoc",
+      "password": "robertocpass",
+      "rol": "Gerente General",
+      "email": "roberto@birraybiceps.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Lucía",
+      "lastName": "Barril",
+      "username": "luciab",
+      "password": "luciabpass",
+      "rol": "Recepcionista",
+      "email": "lucia@birraybiceps.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Fernando",
+      "lastName": "Chopera",
+      "username": "fernandoc",
+      "password": "fernandocpass",
+      "rol": "Coordinador de Clases",
+      "email": "fernando@birraybiceps.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Martina",
+      "lastName": "Lúpulo",
+      "username": "martinal",
+      "password": "martinalpass",
+      "rol": "Instructora Jefe",
+      "email": "martina@birraybiceps.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Gastón",
+      "lastName": "Malta",
+      "username": "gastonm",
+      "password": "gastonmpass",
+      "rol": "Sommelier Cervecero",
+      "email": "gaston@birraybiceps.com"
+    }
+  ]
+}
+
