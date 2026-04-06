@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birra y Bíceps</title>
+    <title>Detalles de Clase - Birra y Bíceps</title>
     <!-- Incluimos los estilos base -->
     <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -20,10 +20,10 @@
     </header>
 
     <!-- CONTENIDO PRINCIPAL -->
-    <main>
-        <!-- En React, esto será <CategoriaSection /> -->
-        <!-- Usaremos #categorias-container para inyectar dinámicamente el HTML desde js/main.js -->
-        <div id="categorias-container">
+    <!-- En React esto corresponde a la vista del componente <ClaseDetails /> -->
+    <main class="clase-page-container">
+        <a href="/" class="back-btn">⬅ Volver al catálogo</a>
+        <div id="clase-details-container">
             <article class="container loading">
                 <div class="loader"></div>
             </article>
@@ -37,6 +37,6 @@
 
     <!-- SCRIPTS -->
     <script src="/js/auth.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="/js/clase.js"></script>
 </body>
 </html>
